@@ -1,7 +1,7 @@
 {
-    "name": "testsoft/package-implementation",
+    "name": "testsoft/package-test-support",
     "type": "library",
-    "description": "An implementation for a package",
+    "description": "An test mock for a package",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
