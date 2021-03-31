@@ -1,0 +1,20 @@
+{
+    "name": "testsoft/package-implementation",
+    "type": "library",
+    "description": "An implementation for a package",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4|^8.0",
+        "testsoft/package-interface": "dev-master@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Testsoft\\PackageTestSupport\\": "src"
+        }
+    },
+    "provide": {
+        "testsoft/package-vitual-interface": "1.0.0"
+    }
+}
+git 
